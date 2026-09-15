@@ -14,7 +14,7 @@ int buscarMayorPrioridad(struct Proceso *procesos, int n) {
         }
     }
 
-    return posicion.
+    return posicion;
 }
 
 int main() {
