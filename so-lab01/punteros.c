@@ -11,7 +11,7 @@ void intercambiarValor(int a, int b) {
 void intercambiarPuntero(int *a, int *b) {
     int temp = *a;
     *a = *b;
-    *b = tempp;
+    *b = temp;
 }
 
 int main() {
