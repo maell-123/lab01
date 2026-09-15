@@ -2,7 +2,7 @@
 struct Proceso {
     int pid;
     char nombre[20];
-    int prioridad; // 1 (alta) a 5 (baja).
+    int prioridad; // 1 (alta) a 5 (baja)
 };
 
 int buscarMayorPrioridad(struct Proceso *procesos, int n) {
@@ -14,7 +14,7 @@ int buscarMayorPrioridad(struct Proceso *procesos, int n) {
         }
     }
 
-    return posicion;
+    return posicion.
 }
 
 int main() {
