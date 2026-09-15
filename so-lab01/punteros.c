@@ -8,7 +8,7 @@ void intercambiarValor(int a, int b) {
 }
 
 // Version B: con puntero (paso por referencia)
-void intercambiarPuntero(int *a, int *b) {
+void intercambiarPuntero(int *a, in *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
